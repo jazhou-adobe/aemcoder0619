@@ -1,0 +1,112 @@
+.contact-form-container .contact-form-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.contact-form .contact-form-fields {
+  max-width: 500px;
+}
+
+.contact-form .form-field {
+  margin-bottom: 20px;
+}
+
+.contact-form .form-field label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 6px;
+  color: #333;
+  font-size: 14px;
+}
+
+.contact-form .form-field .required-star {
+  color: #c00;
+  font-weight: 700;
+}
+
+.contact-form .form-field input[type="text"],
+.contact-form .form-field input[type="email"] {
+  width: 100%;
+  max-width: 500px;
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+.contact-form .form-field textarea {
+  width: 100%;
+  max-width: 500px;
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+.contact-form .form-field input[type="text"]:focus,
+.contact-form .form-field input[type="email"]:focus,
+.contact-form .form-field textarea:focus {
+  outline: none;
+  border-color: #23527c;
+}
+
+.contact-form .checkbox-group {
+  margin-top: 4px;
+}
+
+.contact-form .checkbox-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.contact-form .checkbox-item input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+  margin: 0;
+  flex-shrink: 0;
+}
+
+.contact-form .checkbox-item label {
+  font-weight: 400;
+  margin-bottom: 0;
+  font-size: 14px;
+  color: #333;
+}
+
+.contact-form .form-actions {
+  margin-top: 30px;
+}
+
+.contact-form .form-actions button {
+  background-color: #23527c;
+  color: #fff;
+  border: none;
+  padding: 12px 24px;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  cursor: pointer;
+  letter-spacing: 0.5px;
+}
+
+.contact-form .form-actions button:hover {
+  background-color: #1a3f5e;
+}
+
+@media (max-width: 900px) {
+  .contact-form .form-field input[type="text"],
+  .contact-form .form-field input[type="email"],
+  .contact-form .form-field textarea {
+    max-width: 100%;
+  }
+
+  .contact-form .contact-form-fields {
+    max-width: 100%;
+  }
+}

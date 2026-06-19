@@ -35,3 +35,14 @@
     padding: 40px 32px;
   }
 }
+
+.hero.compact {
+  min-height: unset;
+  padding: 20px 24px;
+}
+
+@media (width >= 900px) {
+  .hero.compact {
+    padding: 24px 32px;
+  }
+}

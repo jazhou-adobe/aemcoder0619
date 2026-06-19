@@ -1,0 +1,37 @@
+.summit-links {
+  --btn-bg: #0d67b3;
+  --btn-color: #fff;
+  --btn-padding: 10px 25px;
+  --btn-font-size: 15px;
+
+  text-align: center;
+  padding: 40px 0;
+}
+
+.summit-links > div > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+main .summit-links a.button:any-link {
+  background-color: var(--btn-bg);
+  border-color: var(--btn-bg);
+  color: var(--btn-color);
+  padding: var(--btn-padding);
+  font-size: var(--btn-font-size);
+  font-weight: 400;
+  font-family: var(--heading-font-family, 'Open Sans', sans-serif);
+  text-transform: uppercase;
+  border-radius: 0;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+main .summit-links a.button:any-link:hover {
+  background-color: #095a9e;
+  border-color: #095a9e;
+  color: var(--btn-color);
+}
