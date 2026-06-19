@@ -1,17 +1,15 @@
+.video-embed-container {
+  padding: 0;
+}
+
 .video-embed-container .video-embed-wrapper {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 24px;
+  padding: 0;
 }
 
 .video-embed {
-  --block-bg: #000;
-  --block-padding: 0;
-
-  background: var(--block-bg);
-  padding: var(--block-padding);
   width: 100%;
-  max-width: 560px;
 }
 
 .video-embed .video-container {
@@ -20,6 +18,7 @@
   padding-bottom: 56.25%; /* 16:9 aspect ratio */
   height: 0;
   overflow: hidden;
+  background: #000;
 }
 
 .video-embed .video-container iframe {

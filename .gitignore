@@ -1,2 +1,4 @@
 .migration/
 drafts/
+node_modules/
+.playwright-mcp/
